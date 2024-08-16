@@ -1,9 +1,9 @@
-Distributed File System
+# Distributed File System
 Overview
 This project implements a Distributed File System using socket programming in C. The system is designed with three servers: Smain, Spdf, and Stext, each responsible for handling specific file types (.c, .pdf, .txt). Clients interact with the Smain server, which transparently manages file storage and retrieval, distributing files to the appropriate servers in the background.
 
 Features
-Multi-server Architecture: Efficiently manages different file types across multiple servers.
+- Multi-server Architecture: Efficiently manages different file types across multiple servers.
 Socket Programming: Ensures seamless communication between clients and servers.
 Client Transparency: Clients are unaware of file distribution across servers, interacting only with the Smain server.
 Command-based Operations: Supports uploading, downloading, deleting files, creating tar files, and displaying directory contents.
